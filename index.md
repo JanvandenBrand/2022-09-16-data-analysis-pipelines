@@ -354,6 +354,163 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
+<div class="row">        <!-- first two days -->
+  <div class="col-md-6"> <!-- left column -->
+    <h3>Day 1</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td>Before starting</td>
+        <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td>9:00</td>        <!-- time    -->
+        <td>1. Introducing the Shell</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>9:05</td>        <!-- time    -->
+        <td>Navigating Files and Directories</td>   <!-- content -->
+      </tr>
+      <tr>               
+        <td>9:50</td>        
+        <td>Working with files and directories</td>        
+      </tr>
+      <tr>
+        <td>10:30</td>
+        <td>Break</td>
+      </tr>
+      <tr>
+        <td>10:40</td>
+        <td>Loops</td>
+      </tr>
+      <tr>
+        <td>11:10</td>
+        <td>Shell scripts</td>
+      </tr>
+      <tr>
+        <td>12:00</td>
+        <td>Finding things</td>
+      </tr>
+      <tr>
+        <td>12:45</td>
+        <td>Lunch</td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-md-6"> <!-- right column -->
+    <h3>Day 2</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td>9:00</td>        <!-- time    -->
+        <td>Why use automated version control</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td>9:05</td>        <!-- time    -->
+        <td>Setting up Git</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>9:10</td>        <!-- time    -->
+        <td>Creating a repository</td>        <!-- content -->
+      </tr>
+      <tr>
+        <td>9:20</td>
+        <td>Tracking changing</td>
+      </tr>
+      <tr>
+        <td>9:40</td>
+        <td>Exploring history</td>
+      </tr>
+      <tr>
+        <td>10:05</td>
+        <td>Ignoring things</td>
+      </tr>
+      <tr>
+        <td>10:10</td>
+        <td>Break</td>
+      </tr>
+      <tr>
+        <td>10:20</td>
+        <td>Remotes in GitHub</td>
+      </tr>
+      <tr>
+        <td>11:05</td>
+        <td>Collaborating</td>
+      </tr>
+      <tr>
+        <td>11:30</td>
+        <td>Merge conflicts</td>
+      </tr>
+      <tr>
+        <td>11:45</td>
+        <td>Open Science</td>
+      </tr>
+      <tr>
+        <td>11:55</td>
+        <td>Licensing</td>
+      </tr>
+      <tr>
+        <td>12:00</td>
+        <td>Citation</td>
+      </tr>
+      <tr>
+        <td>12:05</td>
+        <td>Hosting</td>
+      </tr>
+      <tr>
+        <td>12:15</td>
+        <td>Source Tree</td>
+      </tr>
+      <tr>
+        <td>12:30</td>
+        <td>Open Science</td>
+      </tr>     
+    </table>
+  </div>
+</div>
+<div class="row">        <!-- days 3 and 4 -->
+  <div class="col-md-6"> <!-- left column -->
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+      <tr>               <!-- row 1   -->
+        <td>9:00</td>        <!-- time    -->
+        <td>Introduction to R and RStudio</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 2   -->
+        <td>9:55</td>        <!-- time    -->
+        <td>Project management with RStudio</td>        <!-- content -->
+      </tr>
+      <tr>               <!-- row 3   -->
+        <td>10:25</td>        <!-- time    -->
+        <td>Seeking help</td>        <!-- content -->
+      </tr>
+      <tr>
+        <td>10:45</td>
+        <tr>Break<td>
+      </tr>
+      <tr>
+        <td>10:55</td>
+        <tr>Reading and writing csv files<td>
+      </tr>
+      <tr>
+        <td>11:25</td>
+        <tr>Writing Data<td>
+      </tr>
+      <tr>
+        <td>11:45</td>
+        <tr>Introduction to RMarkdown<td>
+      </tr>
+      <tr>
+        <td>12:05</td>
+        <tr>Automate your projects with templates<td>
+      </tr>
+      <tr>
+        <td>12:25</td>
+        <td>Lunch</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+{% comment %}
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
@@ -364,6 +521,7 @@ of code below the Schedule `<h2>` header below with
 This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
 {% endif %}
+{% endcomment %}
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
