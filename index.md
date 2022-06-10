@@ -251,7 +251,7 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% include _includes/custom-schedule.htm %}
+{% include custom-schedule.html %}
 
 {% if site.pilot %}
 The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. Please [contact the workshop organisers](#contact) if you would like more information about the planned schedule.
